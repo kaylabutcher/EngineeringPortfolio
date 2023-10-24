@@ -2141,36 +2141,36 @@ header.major h2 {
 .courses-section {
 	font-weight: normal;
 	display: inline-block;
-	margin: 20px;
+	margin-left: 50px;
 }
 .courses-section li {
-	font-size: 16px;
+	font-size: 2vh;
 	list-style-type: none;
 	list-style-position: outside;
 	color: #ffffff;
 	display: flex; /* Display as inline-block to keep on the same line */
-	margin: 2px;
+	align-items: center;
+	margin: 3px 1.5px;
 	background-color: #7393B3; /* Change the background color to your desired highlight color */
 	border-radius: 18px; /* Add rounded corners */
-	padding: 0px 8px; /* Adjust padding to extend the highlight */
+	padding: 0px 16px;
+	max-height: 40px; /* Adjust padding to extend the highlight */
 	}
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-	background-color: transparent;
+	background-color: #ffffff;
 	overflow: hidden;
 	display: flex;
 	height: fit-content;
 	margin-top: 0px;
 	justify-content: space-between;
-	padding: 14px 16px;
-	vertical-align: middle;	
+	padding: 5px 5px 16px 16px;	
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
-	padding: 5px;
 	float: center;
 	color: #1e2120;
 	flex-grow: 1;
